@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "17324344341",
+    "firebase_url": "https://iknow-d6fe4.firebaseio.com",
+    "project_id": "iknow-d6fe4",
+    "storage_bucket": "iknow-d6fe4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17324344341:android:f238b23b420b13fa",
+        "android_client_info": {
+          "package_name": "com.santos.angela.iknow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17324344341-kqc51ufc98mbsdjris5alnht9b98nusj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.santos.angela.iknow",
+            "certificate_hash": "65e8fe472991cd8647344a3dbd7849fcaac1de4c"
+          }
+        },
+        {
+          "client_id": "17324344341-n5fi5o1lrosacs2uerq2h5biijdfvas7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUqs2C1GBIPkFNq07FLqxAPvmNRgDexhg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17324344341-n5fi5o1lrosacs2uerq2h5biijdfvas7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
