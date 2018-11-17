@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="16dp"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-   >
+    tools:context=".sign_up">
 
     <LinearLayout
 
@@ -14,7 +12,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
         android:orientation="vertical">
 
 
@@ -28,7 +25,7 @@
             android:textSize="24dp" />
 
         <EditText
-            android:id="@+id/editTextEmail"
+            android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
@@ -48,8 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:hint="Enter your Address"
-            />
+            android:hint="Enter your Address" />
 
         <Spinner
             android:id="@+id/numberofchild"
@@ -57,17 +53,17 @@
             android:layout_height="wrap_content"
             android:autofillHints="Number of Child"
             android:background="@android:drawable/btn_dropdown"
-            android:spinnerMode="dropdown"/>
+            android:spinnerMode="dropdown" />
 
         <EditText
             android:id="@+id/editTextNameOfChild"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:hint="Enter Name of Child"
-            />
+            android:hint="Enter Name of Child" />
+
         <EditText
-            android:id="@+id/editTextPassword"
+            android:id="@+id/etPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
@@ -75,7 +71,7 @@
             android:inputType="textPassword" />
 
         <EditText
-            android:id="@+id/editTextConfirmPassword"
+            android:id="@+id/etConfPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
@@ -83,10 +79,11 @@
             android:inputType="textPassword" />
 
         <Button
-            android:id="@+id/buttonRegister"
+            android:id="@+id/btnRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:onClick="signup"
             android:text="Register User" />
 
         <TextView
@@ -97,6 +94,5 @@
             android:textAlignment="center" />
 
     </LinearLayout>
-
 
 </android.support.constraint.ConstraintLayout>
